@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mines Hack</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="language-modal" id="languageModal">
+        <div class="modal-content">
+            <h2>Choose Language</h2>
+            <button class="language-button" data-lang="en">English</button>
+            <button class="language-button" data-lang="ru">Русский</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 id="title">Mines Hack</h1>
+        <div id="game-board"></div>
+        <div class="controls">
+            <span class="trap-label" id="trapLabel">кол-во ловушек</span>
+            <div class="buttons">
+                <button id="decrease">-</button>
+                <span id="trap-count">1</span>
+                <button id="increase">+</button>
+            </div>
+        </div>
+        <button id="get-signal">Получить сигнал</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
